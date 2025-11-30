@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitLavesGym.com</title>
+    <script src="scripts.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Encode+Sans+Condensed:wght@100;200;300;400;500;600;700;800;900&family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&family=Encode+Sans+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Морозов-->
+    <nav class="Nav">
+        <a href="#Page1" class="NavButtons ChangeBackground"> Classes </a> <!-- NavButton потомучто это кнопка на NAV. ChangeBackground потому что у кнопки меняется фон-->
+        <a href="#Footer" class="NavButtons ChangeBackground"> Contacts </a>
+        <a href="https://yandex.ru/maps/202/new-york/geo/brighton_beach/2239855595/?ll=-73.959263%2C40.577995&source=serp_navig&z=16.5" class="NavButtons ChangeText">228 Brighton Beach, Brooklyn, NY</a><!--ChangeText потому что при наведении меняется цвет текста-->
+        <a href="https://youtu.be/dQw4w9WgXcQ?si=WEUkqciP17geD5HQ" class="NavButtons Left">Fitlaves Gym.</a> <!-- лефт потому что эта кнопка слева-->
+    </nav>
+    <!---->
+
+    <!--Арзакаев-->
+    <!-- SLIDE 1 -->
+    <section class="hero fade-in">
+        <div class="hero-content" style="z-index: 2;">
+            <h1>Find your strength.</h1>
+
+            <button class="button">Reserve your spot</button>
+        </div>
+
+        <img src="assets/pictures/slide1-gym.jpg" class="hero-img" alt="" style="z-index: 1;">
+    </section>
+
+    <!-- BLUE TICKER BAR -->
+    <div class="ticker">
+        <p>New Fitness Classes Now Enrolling — Reserve Your Spot • Strength. Power. Movement • Transform Your Body with Fitlaves Gym • </p>
+    </div>
+
+    <!-- SLIDE 2 -->
+    <section class="vision fade-in">
+        <div class="vision-image">
+            <img src="assets/pictures/slide2-athletes.jpg" alt="">
+            <h2 class="vision-title">Vision</h2>
+        </div>
+
+        <div class="vision-text">
+            <h3>Who we are</h3>
+            <p>
+                At Fitlaves Gym, we're dedicated to creating a motivating and empowering space 
+                for athletes of all levels. Whether you're a complete beginner or a seasoned 
+                professional, we help you unlock your potential, refine your technique, 
+                and develop strength from the inside out.
+            </p>
+
+            <button class="button about-btn">About us</button>
+        </div>
+    </section>
+    <!--
+    <script src="script.js"></script> 
+    -->
+    <!---->
+
+
+
+    <!--Морозов-->
+    <section style="background-color: #1F41FF; padding: 160px 149px;" id="Page0"> <!-- выбран section потому что задаётся отдельная страница -->
+        <div style="gap: 30px; display: grid;"> <!-- выбран div что бы в нём можно было правильно разместить объекты-->
+            <p class="TextPage0">Whether you're a beginner looking to explore innovative training methods or an advanced athlete ready to refine your technique, we have weight for you! </p> <!-- TextPage0 потому что вторую страницу на момент написания на 1же назвал первой, а эта идёт перед первой, ну и потому что он задаёт правила текста-->
+            <a href="https://youtu.be/GXKaL0hsCEU?si=H7nSGdGgflzjSSKN&t=1562" class="Button" style="color: black; background-color: #D0FBF9">Reserve your spot</a> <!-- a потому что кнопка должна быть кликабельной. Button потому что кнопка-->
+        </div>
+    </section><section class="Page1" id="Page1"> <!-- Page1 потому что это первая страница ()была-->
+        <div style="position: relative; flex: 1;">
+            <img src="assets/pictures/Photo.jpg" alt="Athlets" style="width: 100%; height: auto; display: block;">
+            <h2 class="Brigades">Brigades</h2> <!-- Brigades потому что написано Brigades-->
+        </div>
+        <div style="flex: 1;"> <!-- отдельный div что ыб контейнеры правильно поделили пространство-->
+            <div class="TextPage1"> <!-- TextPage1 потому что это текст на странице 1-->
+                <h3 class="OurBrigades">Our Brigades</h3> <!-- Our brigades потому что написано Our brigades--> 
+                <p class="AboutBrigades">Get your groove on with Amazon packages, find your rhythm in furniture, and explore connection in electronics. Fitlaves gym offers a diverse range of classes for every athlete.</p> <!-- about brigades потому что написано о брагадах-->
+                <!--
+                <div id="PhoneRequest">
+                    <input id="PhoneNumber" placeholder="Enter your phone">
+                    <button id="SubmitPhone">Submit</button>
+                </div>
+                -->
+                <a href="https://youtu.be/dQw4w9WgXcQ?si=WEUkqciP17geD5HQ" class="Button">Reserve your spot</a>
+            </div>
+        </div>
+    </section>
+    <footer style="padding-top: 30px; background-color: #D0FBF9;" id="Footer"> <!--footer потому что сайту нужен футер-->
+        <div class="Footer"> <!-- footer потому что фактический задётяс основная часть футера-->
+            <h2 class="Logo HideToShow">Fit. laves.</h2> <!-- Logo потому что в образце это назвалось логотипом. HideToShow что бы этот элемент мог плавно появляться-->
+            <div style="padding: 0px 30px; flex: 1; gap: 36px; display: grid;" class="HideToShow"> <!-- так как таких блока всего 2 не стал создавать отдельный класс, проще было скопировать-->
+                <div class="ContactsBlock"> <!-- ContactsBlock потому что это блок с контактами-->
+                    <p class="Contacts">Email:</p> <!-- Contacts оптому что это контактные данные-->
+                    <p class="Contacts">Fitlaves@yandex.ru</p>
+                </div>
+                <div class="ContactsBlock">
+                    <p class="Contacts">Max:</p>
+                    <p class="Contacts">@fitlaves</p>
+                </div>
+                <div class="ContactsBlock">
+                    <p class="Contacts">VK:</p>
+                    <p class="Contacts">Fitlaves</p>
+                </div>
+            </div>
+            <div style="padding: 0px 30px; flex: 1; gap: 32px; display: grid;" class="HideToShow">
+                <div class="ContactsBlock">
+                    <p class="Contacts">Adress:</p>
+                </div>
+                <div class="ContactsBlock">
+                    <p class="Contacts">228 Brighton Beach, Brooklyn, NY</p>
+                    <p class="Contacts">(800) 555-3535 </p>
+                </div>
+                <div class="ContactsBlock">
+                    <p class="Contacts">Fitlaves gym©</p>
+                    <p class="Contacts">2025 All Rights notReserved</p>
+                </div>
+            </div>
+        </div>
+        <div style="display: flex; flex-direction: row;">
+            <div class="FooterLink" style="background-color: #1F41FF;"> <!-- FooterLink потому что это ссылки в футуре-->
+                <a href="https://youtu.be/dQw4w9WgXcQ?si=WEUkqciP17geD5HQ" class="Links" style="color: white">Our Socials</a> <!-- Links потому что ссылки-->
+            </div>
+            <div class="FooterLink" style="background-color: #000000;">
+                <a href="https://youtu.be/dQw4w9WgXcQ?si=WEUkqciP17geD5HQ" class="Links" style="color: white">Email us</a>
+            </div>
+            <div class="FooterLink" style="background-color: #D900FF;">
+                <a href="https://youtu.be/dQw4w9WgXcQ?si=WEUkqciP17geD5HQ" class="Links" style="color: black">Our Books</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
